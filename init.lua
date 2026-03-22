@@ -10,7 +10,7 @@ vim.opt.relativenumber = true
 vim.opt.showmode = false
 
 -- transparency
-vim.cmd.colorscheme("retrobox") 
+vim.cmd.colorscheme("gruvbox") 
 local function set_transparency()
     local groups = { "Normal", "NormalFloat", "SignColumn", "NormalNC", "MsgArea" }
     for _, group in ipairs(groups) do
