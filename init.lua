@@ -17,6 +17,7 @@ vim.keymap.set ('n', '<leader>t', ':tabnew | Ex<CR>', { silent = true })
 vim.keymap.set ('n', '<leader>qt', ':tabclose<CR>', { silent = true })
 vim.keymap.set ('n', '<leader>sv', ':new<CR>', { silent = true })
 vim.keymap.set ('n', '<leader>sh', ':vnew<CR>', { silent = true })
+vim.keymap.set ('n', '<leader>ei', ':e $MYVIMRC<CR>', { silent = true})
 
 -- plugins
 vim.pack.add {
