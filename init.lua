@@ -26,6 +26,9 @@ vim.pack.add {
 	'https://github.com/kawre/neotab.nvim',
 	'https://github.com/nvim-lualine/lualine.nvim',
 	{ src = 'https://github.com/saghen/blink.cmp', version = 'v1' },
+	'https://github.com/neovim/nvim-lspconfig',
+	'https://github.com/mason-org/mason.nvim',
+	'https://github.com/mason-org/mason-lspconfig.nvim',
 }
 
 -- configs
@@ -64,3 +67,5 @@ require('blink.cmp').setup {
 	  default = { 'lsp', 'path', 'snippets', 'buffer' },
 	},
 }
+require('mason').setup()
+require('mason-lspconfig').setup()
